@@ -1,0 +1,59 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+*.env
+
+# Databases
+*.db
+*.sqlite3
+instance/parking_app.db
+instance/parking.db
+
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.swp
+*.tmp
+*~
+
+# Pytest / coverage
+.cache/
+.coverage
+.pytest_cache/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Compiled code
+*.so
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archive files
+*.zip
+*.tar.gz
+*.tar
+
+# Project-specific temporary files
+temp*.py
+
